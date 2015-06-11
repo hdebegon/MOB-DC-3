@@ -7,18 +7,18 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D3CE8B66-109D-4BA3-856A-7160A0B0D38A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Lesson 3 Demo 4</string>
+	<string>playground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>https://github.com/hdebegon/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Lessons/Lesson 03/Lesson 3 Demo 4.playground</string>
+	<string>Lessons/Lesson 03/Lesson 3 Demo 4.playground/playground.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
-		<string>../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/hdebegon/MOB-DC-3.git</string>

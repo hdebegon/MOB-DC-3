@@ -40,7 +40,7 @@ var beta = 10
 //beta = beta - 1
 --beta
 
-// Equality
+// Equal to
 alpha
 beta
 alpha == beta

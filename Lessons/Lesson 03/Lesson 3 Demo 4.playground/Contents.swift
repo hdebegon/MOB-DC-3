@@ -25,7 +25,4 @@ while z < 100 {
 
 // highlight, then commnd (/? button) will automatically comment a section
 
-// var i = 1
-for i in 1...100 {
-  println("Print the current iteration: \(toyota)")
-}
+
