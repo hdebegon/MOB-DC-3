@@ -13,7 +13,6 @@
 		CEF013611B266D0B00749DBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF013601B266D0B00749DBA /* Images.xcassets */; };
 		CEF013641B266D0B00749DBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF013621B266D0B00749DBA /* LaunchScreen.xib */; };
 		CEF013701B266D0B00749DBA /* BioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0136F1B266D0B00749DBA /* BioAppTests.swift */; };
-		CEF0137A1B266FDD00749DBA /* Jordan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEF013791B266FDD00749DBA /* Jordan.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,6 @@
 		CEF013691B266D0B00749DBA /* BioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF0136E1B266D0B00749DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF0136F1B266D0B00749DBA /* BioAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAppTests.swift; sourceTree = "<group>"; };
-		CEF013791B266FDD00749DBA /* Jordan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Jordan.jpg; path = ../../../../../../../../Desktop/Jordan.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +80,6 @@
 				CEF013591B266D0B00749DBA /* AppDelegate.swift */,
 				CEF0135B1B266D0B00749DBA /* ViewController.swift */,
 				CEF0135D1B266D0B00749DBA /* Main.storyboard */,
-				CEF013791B266FDD00749DBA /* Jordan.jpg */,
 				CEF013601B266D0B00749DBA /* Images.xcassets */,
 				CEF013621B266D0B00749DBA /* LaunchScreen.xib */,
 				CEF013571B266D0A00749DBA /* Supporting Files */,
@@ -198,7 +195,6 @@
 				CEF0135F1B266D0B00749DBA /* Main.storyboard in Resources */,
 				CEF013641B266D0B00749DBA /* LaunchScreen.xib in Resources */,
 				CEF013611B266D0B00749DBA /* Images.xcassets in Resources */,
-				CEF0137A1B266FDD00749DBA /* Jordan.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +409,7 @@
 				CEF013751B266D0B00749DBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEF013761B266D0B00749DBA /* Build configuration list for PBXNativeTarget "BioAppTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +418,7 @@
 				CEF013781B266D0B00749DBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

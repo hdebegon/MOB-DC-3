@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>443C500C-F9AF-4970-B1A1-DB5E12508598</string>
+	<string>C7C99626-42D3-45C2-9A8E-DA87A9EC741E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>BioApp</string>
+	<string>playground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>https://github.com/hdebegon/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Classwork/week 2/Lesson2BioApp/BioApp/BioApp.xcodeproj</string>
+	<string>Lessons/Lesson 03/Lesson 3 Demo 1.playground/playground.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
-		<string>../../../../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/hdebegon/MOB-DC-3.git</string>
