@@ -21,64 +21,6 @@
             <point key="canvasLocation" x="-330" y="-19"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Yr8-D9-5Lo">
-            <objects>
-                <viewController id="obR-8k-74I" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uya-LP-k29"/>
-                        <viewControllerLayoutGuide type="bottom" id="vqX-y8-R2e"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Gat-hf-VuH">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WPD-Xg-cKw">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">My name is Handy Debegon. I am a consultant for a start up company. I am really fascinated by the tech space. I'm probably on TechCrunch more than I should.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="87" width="358" height="204"/>
-                                </variation>
-                            </textView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GNk-aW-SX9">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <items>
-                                    <navigationItem title="Title" id="N6v-oh-E9g">
-                                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="eY1-rc-dD6">
-                                            <connections>
-                                                <segue destination="3bq-wc-U4H" kind="modal" id="Wuq-Ij-FoR"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="395" height="44"/>
-                                </variation>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="WPD-Xg-cKw"/>
-                                <exclude reference="GNk-aW-SX9"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="WPD-Xg-cKw"/>
-                                <include reference="GNk-aW-SX9"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <toolbarItems/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8X3-UC-TqG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1794" y="-408"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="clj-Wi-7Sv">
             <objects>
                 <viewController id="aE8-gu-er1" sceneMemberID="viewController">
@@ -144,6 +86,92 @@
             <point key="canvasLocation" x="376.5" y="-24"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="DC2-gl-dBi">
+            <objects>
+                <viewController id="C10-kL-iym" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jNm-cl-uNU"/>
+                        <viewControllerLayoutGuide type="bottom" id="xrS-hc-aEM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OAD-BG-y8t">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="I'm hoping to learn enough about swift and have the foundation needed to allow me to build my own applications." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cqU-Be-Q8T">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.54705255679999998" green="0.067332264459999999" blue="0.14549044289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="116" width="355" height="162"/>
+                                </variation>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TechCrunch.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h9q-Z2-3PQ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="81" y="243" width="239" height="202"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="cqU-Be-Q8T"/>
+                                <exclude reference="h9q-Z2-3PQ"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="cqU-Be-Q8T"/>
+                                <include reference="h9q-Z2-3PQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EEf-un-UHH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2044.5" y="412"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="b8Q-qR-DJC">
+            <objects>
+                <viewController id="U8U-E5-gOd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZLF-nB-wT0"/>
+                        <viewControllerLayoutGuide type="bottom" id="ApW-yR-lsV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZyT-63-jJL">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YTP-eq-YMY">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">My name is Handy Debegon. I am a consultant for a start up company. I am really fascinated by the tech space. I'm probably on TechCrunch more than I should.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="91" width="358" height="204"/>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="YTP-eq-YMY"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="YTP-eq-YMY"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zAl-Tk-b8C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2044.5" y="-360"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="MVb-On-0c9">
             <objects>
                 <viewController id="3bq-wc-U4H" sceneMemberID="viewController">
@@ -170,7 +198,7 @@
                                     <rect key="frame" x="177" y="262" width="46" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="5Yi-zF-1gE" kind="push" id="zc8-55-exO"/>
+                                    <segue destination="C10-kL-iym" kind="show" id="xiV-LN-gmK"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Handy's First App" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fiQ-gH-hbT">
@@ -191,7 +219,7 @@
                                     <rect key="frame" x="177" y="224" width="46" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="obR-8k-74I" kind="presentation" id="h73-i2-6c7"/>
+                                    <segue destination="U8U-E5-gOd" kind="show" id="w3Y-8n-67y"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -219,70 +247,9 @@
             </objects>
             <point key="canvasLocation" x="1077" y="-19"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="4oP-ya-uWY">
-            <objects>
-                <viewController id="5Yi-zF-1gE" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ppK-ss-We3"/>
-                        <viewControllerLayoutGuide type="bottom" id="ert-9g-4qq"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TqV-KB-j5B">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TechCrunch.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ozv-JQ-D8Q">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="80" y="289" width="239" height="202"/>
-                                </variation>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="I'm hoping to learn enough about swift and have the foundation needed to allow me to build my own applications." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fo5-WA-Bhn">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="textColor" red="0.54705255679999998" green="0.067332264459999999" blue="0.14549044289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="102" width="355" height="162"/>
-                                </variation>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="ozv-JQ-D8Q"/>
-                                <exclude reference="fo5-WA-Bhn"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="ozv-JQ-D8Q"/>
-                                <include reference="fo5-WA-Bhn"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="hJE-f5-gal">
-                        <barButtonItem key="rightBarButtonItem" title="Info" style="plain" id="mrO-G5-esK">
-                            <connections>
-                                <segue destination="obR-8k-74I" kind="presentation" id="o1L-P2-7gt"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Dv-Lz-rsl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1794" y="256"/>
-        </scene>
     </scenes>
     <resources>
         <image name="TechCrunch.jpg" width="250" height="250"/>
         <image name="image1.PNG" width="602" height="608"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="Wuq-Ij-FoR"/>
-        <segue reference="o1L-P2-7gt"/>
-    </inferredMetricsTieBreakers>
 </document>

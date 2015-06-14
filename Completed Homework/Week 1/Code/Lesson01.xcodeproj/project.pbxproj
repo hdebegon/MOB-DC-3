@@ -12,7 +12,7 @@
 		5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68019D8CFFE0082F2DE /* Main.storyboard */; };
 		5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68319D8CFFE0082F2DE /* Images.xcassets */; };
 		5D06C69319D8CFFE0082F2DE /* Lesson01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */; };
-		CE27D35A1B2A25FD0099CC5A /* TechCrunch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE27D3591B2A25FD0099CC5A /* TechCrunch.jpg */; };
+		CE43EC081B2DD12000464B9F /* TechCrunch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE43EC071B2DD12000464B9F /* TechCrunch.jpg */; };
 		CE5294CD1B2D42FC006AA537 /* image1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE5294CC1B2D42FC006AA537 /* image1.PNG */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 		5D06C68C19D8CFFE0082F2DE /* Lesson01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D06C69119D8CFFE0082F2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson01Tests.swift; sourceTree = "<group>"; };
-		CE27D3591B2A25FD0099CC5A /* TechCrunch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TechCrunch.jpg; path = ../../../../../TechCrunch.jpg; sourceTree = "<group>"; };
+		CE43EC071B2DD12000464B9F /* TechCrunch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TechCrunch.jpg; sourceTree = "<group>"; };
 		CE5294CC1B2D42FC006AA537 /* image1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.PNG; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -61,6 +61,7 @@
 		5D06C66E19D8CFFE0082F2DE = {
 			isa = PBXGroup;
 			children = (
+				CE43EC071B2DD12000464B9F /* TechCrunch.jpg */,
 				5D06C67919D8CFFE0082F2DE /* Lesson01 */,
 				5D06C68F19D8CFFE0082F2DE /* Lesson01Tests */,
 				5D06C67819D8CFFE0082F2DE /* Products */,
@@ -83,7 +84,6 @@
 				5D06C67E19D8CFFE0082F2DE /* ViewController.swift */,
 				5D06C68019D8CFFE0082F2DE /* Main.storyboard */,
 				CE5294CC1B2D42FC006AA537 /* image1.PNG */,
-				CE27D3591B2A25FD0099CC5A /* TechCrunch.jpg */,
 				5D06C68319D8CFFE0082F2DE /* Images.xcassets */,
 				5D06C67A19D8CFFE0082F2DE /* Supporting Files */,
 			);
@@ -195,7 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE27D35A1B2A25FD0099CC5A /* TechCrunch.jpg in Resources */,
+				CE43EC081B2DD12000464B9F /* TechCrunch.jpg in Resources */,
 				CE5294CD1B2D42FC006AA537 /* image1.PNG in Resources */,
 				5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */,
 				5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */,
