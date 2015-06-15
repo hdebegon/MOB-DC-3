@@ -94,6 +94,7 @@
                         <viewControllerLayoutGuide type="bottom" id="xrS-hc-aEM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="OAD-BG-y8t">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="I'm hoping to learn enough about swift and have the foundation needed to allow me to build my own applications." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cqU-Be-Q8T">
@@ -141,6 +142,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ApW-yR-lsV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZyT-63-jJL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YTP-eq-YMY">
