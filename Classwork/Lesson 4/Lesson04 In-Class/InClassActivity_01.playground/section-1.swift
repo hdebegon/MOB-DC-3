@@ -1,6 +1,7 @@
 // Playground - noun: a place where people can play
 
 import UIKit
+import Foundation
 
 /*
 BASICS OF FUNCTIONS
@@ -135,7 +136,6 @@ calculateAge(1986)
 
 func tellNameAndAge (name: String, yearOfBirth: Int) {
     var age = calculateAge(1986)
-    return age
     println("\(name), my age is \(age)")
 }
 
