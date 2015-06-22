@@ -68,6 +68,7 @@ func knockknock(String) {
 }
 
 knockknock("Who's there?")
+println()
 
 // That was fun! Let's joke around and knock a few times more
 // Write a function knockMultipleTimes that accepts one parameter
@@ -80,7 +81,7 @@ func knockMutipleTimes(knocks: Int) {
 }
 
 knockMutipleTimes(5)
-
+println()
 
 
 
@@ -95,7 +96,7 @@ func replyWhoIsHere(firstname: String, homeCountry: String) {
 }
 
 replyWhoIsHere("Handy", "Canada")
-
+println()
 
 
 
@@ -123,7 +124,7 @@ func calculateAge(yearOfBirth: Int) -> Int {
 }
 
 calculateAge(1986)
-
+println()
 
 
 
@@ -140,16 +141,20 @@ func tellNameAndAge (name: String, yearOfBirth: Int) {
 }
 
 tellNameAndAge("Handy", 1986)
-
+println()
 
 // Call knock knock
 knockknock("Who's there?")
+println()
 
 // Call knockMultipleTimes
 knockMutipleTimes(5)
+println()
 
 // Call replyWhoIsHere
 replyWhoIsHere("Handy", "Canada")
+println()
 
 // Call tellNameAndAge
 tellNameAndAge("Handy", 1986)
+println()
