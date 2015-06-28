@@ -69,6 +69,9 @@
                                 <state key="normal" title="Generate text!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="generateText:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nKT-ar-8Mc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -91,8 +94,11 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="ageText" destination="HD3-Of-BAd" id="zhY-nq-EP6"/>
                         <outlet property="ageTextField" destination="HD3-Of-BAd" id="es8-rA-aTf"/>
+                        <outlet property="nameText" destination="dvu-Gz-gU3" id="Fvp-Gu-AFR"/>
                         <outlet property="nameTextField" destination="dvu-Gz-gU3" id="w3e-eP-omn"/>
+                        <outlet property="textLabel" destination="v2W-sh-fBn" id="yQx-uh-5fj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -158,6 +164,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="numberField" destination="dsS-73-FSq" id="FtT-7q-oOa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFb-9H-Aa6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
