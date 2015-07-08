@@ -14,7 +14,6 @@
 		8EAD128A1B44B914007C5890 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD12881B44B914007C5890 /* LaunchScreen.xib */; };
 		8EAD12961B44B914007C5890 /* TablesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD12951B44B914007C5890 /* TablesTests.swift */; };
 		8EAD12A01B44B971007C5890 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD129F1B44B971007C5890 /* FirstTableViewController.swift */; };
-		8EAD12A21B44C079007C5890 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD12A11B44C079007C5890 /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +38,6 @@
 		8EAD12941B44B914007C5890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EAD12951B44B914007C5890 /* TablesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesTests.swift; sourceTree = "<group>"; };
 		8EAD129F1B44B971007C5890 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
-		8EAD12A11B44C079007C5890 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../../../../../../../../../Desktop/image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 		8EAD127C1B44B914007C5890 /* Tables */ = {
 			isa = PBXGroup;
 			children = (
-				8EAD12A11B44C079007C5890 /* image.png */,
 				8EAD127F1B44B914007C5890 /* AppDelegate.swift */,
 				8EAD129F1B44B971007C5890 /* FirstTableViewController.swift */,
 				8EAD12811B44B914007C5890 /* ViewController.swift */,
@@ -201,7 +198,6 @@
 				8EAD12851B44B914007C5890 /* Main.storyboard in Resources */,
 				8EAD128A1B44B914007C5890 /* LaunchScreen.xib in Resources */,
 				8EAD12871B44B914007C5890 /* Images.xcassets in Resources */,
-				8EAD12A21B44C079007C5890 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +413,7 @@
 				8EAD129B1B44B914007C5890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EAD129C1B44B914007C5890 /* Build configuration list for PBXNativeTarget "TablesTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +422,7 @@
 				8EAD129E1B44B914007C5890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

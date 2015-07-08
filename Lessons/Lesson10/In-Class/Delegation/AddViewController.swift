@@ -8,7 +8,8 @@
 
 import UIKit
 
-class AddViewController: UIViewController {
+class AddViewController: UIViewController
+{
     @IBOutlet weak var nameField: UITextField!
 
     override func viewDidLoad() {

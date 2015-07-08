@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>17024872-521E-4972-B960-BEECA296858D</string>
+	<string>DBC0563A-219D-4C74-80A8-F2EFF92BC4A3</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Tables</string>
+	<string>Delegation-basics</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>https://github.com/hdebegon/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Solutions/Lesson09/Tables/Tables.xcodeproj</string>
+	<string>Solutions/Lesson10/Delegation-Counter/Delegation-basics.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
