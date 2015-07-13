@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         
         let tap = UITapGestureRecognizer(target: self, action: "gestureAction")
         tap.numberOfTapsRequired = 3
-//        label.addGestureRecognizer(tap)
-//        label.userInteractionEnabled = true
+        label.addGestureRecognizer(tap)
+        label.userInteractionEnabled = true
         
         view.addGestureRecognizer(tap)
     }
