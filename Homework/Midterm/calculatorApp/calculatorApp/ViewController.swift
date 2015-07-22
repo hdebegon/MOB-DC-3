@@ -12,17 +12,16 @@ class ViewController: UIViewController
 {
 
     @IBOutlet weak var calculationLabel: UILabel!
-    var result = Float()
-    var currentNumber = Float()
+    var result = Double()
+    var currentNumber = Double()
     
     var currentOperation = String()
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         currentOperation = "="
-        calculationLabel.text = ("\(result)")
+        calculationLabel.text = ("\(Int(result))")
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
@@ -30,7 +29,8 @@ class ViewController: UIViewController
     }
 
     @IBAction func numberInputAction(sender: UIButton) {
-        currentNumber = currentNumber*10 + Float(sender.titleLabel!.text!.toInt()!)
+        let castedString = sender.titleLabel!.text! as NSString
+        currentNumber = currentNumber*10 + castedString.doubleValue
         calculationLabel.text = ("\(currentNumber)")
     }
     
@@ -57,7 +57,7 @@ class ViewController: UIViewController
             result = 0
         }
         
-        currentOperation = sender.titleLabel!.text! as String!
+        currentOperation = sender.titleLabel!.text!
     }
     
     
@@ -81,6 +81,7 @@ class ViewController: UIViewController
     
     
     @IBAction func inverseAction(sender: UIButton) {
+        
         var number = doubleFromString()
         number = -1 * number
         calculationLabel.text = "\(number)"
@@ -88,18 +89,10 @@ class ViewController: UIViewController
     
     
     @IBAction func percentageAction(sender: UIButton) {
-        var minus = "-"
-        var wholeLabel = calculationLabel.text
         
-        var range = wholeLabel?.rangeOfString(minus)
+        let value = (calculationLabel.text! as NSString).doubleValue
+        calculationLabel.text = "\(value/100)"
         
-        if range == nil {
-            var result = currentNumber/(100)
-            calculationLabel.text = ("\(result)")
-        } else {
-            var result = currentNumber/(-100)
-            calculationLabel.text = ("\(result)")
-        }
     }
     
     
