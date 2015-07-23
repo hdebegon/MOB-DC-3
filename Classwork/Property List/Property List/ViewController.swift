@@ -10,16 +10,46 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+//    let counterID = "counterID"
+//    let defaults = NSUserDefaults.standardUserDefaults()
+//    
+//    var counter = 0 {
+//        willSet {
+//            println("Previous Value \(counter)")
+//        }
+//        
+//        didSet {
+//            println("New Value \(counter)")
+//            movieNames.text = "\(counter)"
+//            
+//            defaults.setInteger(counter, forKey: counterID)
+//            defaults.synchronize()
+//        }
+//    }
+//    
+//    @IBOutlet weak var movieNames: UITextField!
+//
+//    
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        
+//        counter = defaults.integerForKey(counterID)
+//    }
+//    
+//    @IBAction func buttonAction(sender: AnyObject) {
+//        counter++
+//    }
+    
 
+    let favoriteSongs = NSBundle.mainBundle().pathForResource("Songs", ofType: "plist")
+    
+    if let favoriteSongs = favoriteSongs {
+        let songs = NSArray(contentsOfFile: favoriteSongs)
+        println(songs)
+    }
+        
+    
 
 }
 
