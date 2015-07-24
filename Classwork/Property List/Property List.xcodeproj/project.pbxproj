@@ -13,7 +13,6 @@
 		CEDB6B4A1B606D99001B4369 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDB6B491B606D99001B4369 /* Images.xcassets */; };
 		CEDB6B4D1B606D99001B4369 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDB6B4B1B606D99001B4369 /* LaunchScreen.xib */; };
 		CEDB6B591B606D99001B4369 /* Property_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB6B581B606D99001B4369 /* Property_ListTests.swift */; };
-		CEDB6B631B606FD6001B4369 /* Favorite Songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEDB6B621B606FD6001B4369 /* Favorite Songs.plist */; };
 		CEDCEBE01B60730A00E2A593 /* MoviesAndMusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCEBDF1B60730A00E2A593 /* MoviesAndMusicTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		CEDB6B521B606D99001B4369 /* Property ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Property ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDB6B571B606D99001B4369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDB6B581B606D99001B4369 /* Property_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property_ListTests.swift; sourceTree = "<group>"; };
-		CEDB6B621B606FD6001B4369 /* Favorite Songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Favorite Songs.plist"; path = "../Favorite Songs.plist"; sourceTree = "<group>"; };
 		CEDCEBDF1B60730A00E2A593 /* MoviesAndMusicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesAndMusicTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +79,6 @@
 		CEDB6B3F1B606D99001B4369 /* Property List */ = {
 			isa = PBXGroup;
 			children = (
-				CEDB6B621B606FD6001B4369 /* Favorite Songs.plist */,
 				CEDB6B421B606D99001B4369 /* AppDelegate.swift */,
 				CEDB6B441B606D99001B4369 /* ViewController.swift */,
 				CEDB6B461B606D99001B4369 /* Main.storyboard */,
@@ -198,7 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDB6B631B606FD6001B4369 /* Favorite Songs.plist in Resources */,
 				CEDB6B481B606D99001B4369 /* Main.storyboard in Resources */,
 				CEDB6B4D1B606D99001B4369 /* LaunchScreen.xib in Resources */,
 				CEDB6B4A1B606D99001B4369 /* Images.xcassets in Resources */,

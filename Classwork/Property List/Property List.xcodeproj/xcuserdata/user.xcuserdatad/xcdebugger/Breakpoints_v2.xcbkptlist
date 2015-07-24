@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Property List/ViewController.swift"
+            timestampString = "459321277.953733"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Property_List.ViewController.movieNames.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextField&gt;"
+                  moduleName = "Property List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/General%20Assembly/MOB-DC-3/Classwork/Property%20List/Property%20List/ViewController.swift"
+                  timestampString = "459321278.01518"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Property_List.ViewController.movieNames.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextField&gt;"
+                  moduleName = "Property List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/General%20Assembly/MOB-DC-3/Classwork/Property%20List/Property%20List/ViewController.swift"
+                  timestampString = "459321278.017453"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Property_List.ViewController.movieNames.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextField&gt;"
+                  moduleName = "Property List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/General%20Assembly/MOB-DC-3/Classwork/Property%20List/Property%20List/ViewController.swift"
+                  timestampString = "459321278.017654"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Property_List.ViewController.init (Property_List.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Property_List.ViewController"
+                  moduleName = "Property List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/General%20Assembly/MOB-DC-3/Classwork/Property%20List/Property%20List/ViewController.swift"
+                  timestampString = "459321278.017829"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Property_List.ViewController.init (Property_List.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Property_List.ViewController"
+                  moduleName = "Property List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/General%20Assembly/MOB-DC-3/Classwork/Property%20List/Property%20List/ViewController.swift"
+                  timestampString = "459321278.01799"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
