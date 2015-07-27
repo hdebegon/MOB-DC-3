@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ym7-20-h3J">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -21,30 +22,43 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hD6-Ow-ly8">
-                                <rect key="frame" x="277" y="221" width="46" height="30"/>
-                                <state key="normal" title="SAVE">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="177" y="297" width="46" height="30"/>
-                                </variation>
                                 <connections>
-                                    <action selector="saveAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rwn-EY-2at"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="TnP-Au-wia"/>
                                 </connections>
-                            </button>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="xWL-ps-WcZ" secondAttribute="bottom" constant="554" id="5cg-Ea-C3D"/>
+                            <constraint firstItem="xWL-ps-WcZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="61" id="EEl-53-6MJ"/>
                             <constraint firstAttribute="centerX" secondItem="xWL-ps-WcZ" secondAttribute="centerX" constant="-0.5" id="QVn-z7-xar"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xWL-ps-WcZ" secondAttribute="trailing" constant="51" id="Qf7-4y-Mc7"/>
+                            <constraint firstItem="xWL-ps-WcZ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="152" id="S7i-dL-Oru"/>
                             <constraint firstAttribute="centerY" secondItem="xWL-ps-WcZ" secondAttribute="centerY" constant="169" id="v3Y-DS-xgo"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="EEl-53-6MJ"/>
+                                <exclude reference="Qf7-4y-Mc7"/>
+                                <exclude reference="S7i-dL-Oru"/>
+                                <exclude reference="5cg-Ea-C3D"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="EEl-53-6MJ"/>
+                                <exclude reference="QVn-z7-xar"/>
+                                <include reference="Qf7-4y-Mc7"/>
+                                <exclude reference="S7i-dL-Oru"/>
+                                <exclude reference="v3Y-DS-xgo"/>
+                                <include reference="5cg-Ea-C3D"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Yhf-qe-087">
                         <barButtonItem key="rightBarButtonItem" title="Table" id="KyC-53-cdU">
                             <connections>
-                                <segue destination="E4o-jw-a8b" kind="show" id="qdV-m1-utf"/>
+                                <segue destination="E4o-jw-a8b" kind="show" identifier="movieList" id="qE2-ax-Fih"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -65,12 +79,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="hdID" textLabel="Lnv-C4-xS4" style="IBUITableViewCellStyleDefault" id="vCm-j2-r0O">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieCell" textLabel="Lnv-C4-xS4" style="IBUITableViewCellStyleDefault" id="vCm-j2-r0O">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vCm-j2-r0O" id="Pvn-zq-2tY">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lnv-C4-xS4">
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lnv-C4-xS4">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

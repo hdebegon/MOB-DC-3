@@ -8,24 +8,38 @@
 
 import UIKit
 
-class ViewController: UIViewController
+class ViewController: UIViewController, UITextFieldDelegate
 {
-    var movies = []
 
     @IBOutlet weak var movieNames: UITextField!
     
+
+    let defaults = NSUserDefaults.standardUserDefaults()
+    var movies = [String]() {
+        didSet {
+
+        }
+    }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewWillAppear(animated: Bool) {
+        movies = [String]()
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        view.endEditing(true)
+        if movieNames.text != "" {
+            movies.append(movieNames.text)
+        }
         
-        var movies = movieNames.text
+        movieNames.text = ""
+        
+        return true
     }
-
-    @IBAction func saveAction(sender: UIButton) {
     
-        var movies = movieNames.text
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "movieList" {
+            defaults.setObject(movies, forKey: "movies")
+        }
     }
-
     
 }

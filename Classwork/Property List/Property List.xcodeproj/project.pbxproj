@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE11B1A51B61F4A700D449DE /* movieList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE11B1A41B61F4A700D449DE /* movieList.plist */; };
 		CEDB6B431B606D99001B4369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB6B421B606D99001B4369 /* AppDelegate.swift */; };
 		CEDB6B451B606D99001B4369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB6B441B606D99001B4369 /* ViewController.swift */; };
 		CEDB6B481B606D99001B4369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDB6B461B606D99001B4369 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE11B1A41B61F4A700D449DE /* movieList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = movieList.plist; path = "Property List/movieList.plist"; sourceTree = "<group>"; };
 		CEDB6B3D1B606D99001B4369 /* Property List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Property List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDB6B411B606D99001B4369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDB6B421B606D99001B4369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		CEDB6B341B606D99001B4369 = {
 			isa = PBXGroup;
 			children = (
+				CE11B1A41B61F4A700D449DE /* movieList.plist */,
 				CEDB6B3F1B606D99001B4369 /* Property List */,
 				CEDB6B551B606D99001B4369 /* Property ListTests */,
 				CEDB6B3E1B606D99001B4369 /* Products */,
@@ -80,8 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				CEDB6B421B606D99001B4369 /* AppDelegate.swift */,
-				CEDB6B441B606D99001B4369 /* ViewController.swift */,
 				CEDB6B461B606D99001B4369 /* Main.storyboard */,
+				CEDB6B441B606D99001B4369 /* ViewController.swift */,
 				CEDCEBDF1B60730A00E2A593 /* MoviesAndMusicTableViewController.swift */,
 				CEDB6B491B606D99001B4369 /* Images.xcassets */,
 				CEDB6B4B1B606D99001B4369 /* LaunchScreen.xib */,
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDB6B481B606D99001B4369 /* Main.storyboard in Resources */,
+				CE11B1A51B61F4A700D449DE /* movieList.plist in Resources */,
 				CEDB6B4D1B606D99001B4369 /* LaunchScreen.xib in Resources */,
 				CEDB6B4A1B606D99001B4369 /* Images.xcassets in Resources */,
 			);

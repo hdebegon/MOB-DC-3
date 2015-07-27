@@ -1,23 +1,25 @@
-class car {
-    
-    var wheels: Int
-    var doors: Int
-    var name: String
-    
-    // initializer method (aka: initializer function)
-    init() {
-        wheels = 4
-        doors = 4
-        name = "kia"
-    }
+var countries = ["USA", "Canada", "Spain", "Brazil", "Italy"]
+for countryName in countries {
+    println(countryName)
 }
 
-var myCar = car()
+for (countryIndex, countryNames) in enumerate(countries){
+    println("\(countryNames) is item number \(countryIndex) in my array")
+}
 
-println(myCar.wheels)
-println(myCar.name)
+var nameAge = [String: Int]()
+println(nameAge)
+nameAge["handy"] = 28
+println(nameAge)
+nameAge = [:]
+println(nameAge)
 
-myCar.name = "BMW"
-println(myCar.name)
 
+var airport = ["YUL": "Montreal", "BWI": "Baltimore"]
+for keyName in airport.keys {
+ println("\(keyName) is an airport code")
+}
 
+for valueName in airport.values {
+ println("\(valueName) is the name of an airport ")
+}

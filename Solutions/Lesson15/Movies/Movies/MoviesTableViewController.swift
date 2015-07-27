@@ -54,11 +54,6 @@ class MoviesTableViewController: UITableViewController {
         let sourceArray = indexPath.section == 0 ? moviesFromDefaults : moviesFromPlist
         let movieName = sourceArray[indexPath.row]
         
-//        if indexPath.section == 0 {
-//            cell.textLabel?.text = moviesFromDefaults[indexPath.row]
-//        } else {
-//            cell.textLabel?.text = moviesFromPlist[indexPath.row]
-//        }
         
         cell.textLabel?.text = movieName
 
