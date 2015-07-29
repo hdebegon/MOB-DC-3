@@ -10,6 +10,7 @@ import UIKit
 
 class StudentsTableViewController: UITableViewController, StudentDelegate {
     
+    weak var store = StudentStore.sharedStore
     var students = [Student]()
 
     override func viewDidLoad() {
@@ -17,6 +18,13 @@ class StudentsTableViewController: UITableViewController, StudentDelegate {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         self.navigationItem.leftBarButtonItem = self.editButtonItem()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        students = store!.getAllStudents()
+        tableView.reloadData()
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -33,9 +41,8 @@ class StudentsTableViewController: UITableViewController, StudentDelegate {
     }
     
     // MARK: - Student Delegate
-    func addStudent(#newStudent: Student) {
-        students.append(newStudent)
-        
+    func addStudent(name: String, location: String) {
+        store?.addStudent(name, location: location)
         tableView.reloadData()
     }
 
@@ -58,6 +65,7 @@ class StudentsTableViewController: UITableViewController, StudentDelegate {
     // Override to support editing the table view.
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
+            store?.removeStudent(students[indexPath.row])
             students.removeAtIndex(indexPath.row)
             
             // Delete the row from the data source
