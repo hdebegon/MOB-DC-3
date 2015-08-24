@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1096D11B853AC900034121 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1096D01B853AC900034121 /* CoreLocation.framework */; };
+		CE1096D31B853AD200034121 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1096D21B853AD200034121 /* MapKit.framework */; };
+		CE1096D91B85464B00034121 /* TestLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CE1096D81B85464B00034121 /* TestLocations.gpx */; };
+		CE1096DB1B85476C00034121 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1096DA1B85476C00034121 /* MapViewController.swift */; };
+		CE40F48B1B86D58F009429F4 /* Barber Options.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE40F48A1B86D58F009429F4 /* Barber Options.plist */; };
+		CE46608F1B899E9B0016A441 /* Barber 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE4660891B899E9B0016A441 /* Barber 1.jpg */; };
+		CE4660901B899E9B0016A441 /* Barber 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE46608A1B899E9B0016A441 /* Barber 2.jpg */; };
+		CE4660911B899E9B0016A441 /* Barber 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE46608B1B899E9B0016A441 /* Barber 3.jpg */; };
+		CE4660921B899E9B0016A441 /* Barber 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE46608C1B899E9B0016A441 /* Barber 4.jpg */; };
+		CE4660931B899E9B0016A441 /* Barber 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE46608D1B899E9B0016A441 /* Barber 5.jpg */; };
+		CE4660941B899E9B0016A441 /* Barber 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE46608E1B899E9B0016A441 /* Barber 6.jpg */; };
+		CE4660961B89AFAE0016A441 /* default.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CE4660951B89AFAE0016A441 /* default.gpx */; };
+		CE4713C41B8A767800F92889 /* ConfirmAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4713C31B8A767800F92889 /* ConfirmAppointmentViewController.swift */; };
+		CE490B2C1B68831600A3A9D8 /* default_profile_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE490B291B68831600A3A9D8 /* default_profile_pic.jpg */; };
+		CE490B2D1B68831600A3A9D8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE490B2A1B68831600A3A9D8 /* logo.png */; };
+		CE490B2E1B68831600A3A9D8 /* Tristan_Walker.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE490B2B1B68831600A3A9D8 /* Tristan_Walker.jpeg */; };
+		CE490B301B69650500A3A9D8 /* BarberTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE490B2F1B69650500A3A9D8 /* BarberTableViewController.swift */; };
+		CE490B321B6965CF00A3A9D8 /* BarberProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE490B311B6965CF00A3A9D8 /* BarberProfileViewController.swift */; };
+		CE490B341B6965FF00A3A9D8 /* CustomerConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE490B331B6965FF00A3A9D8 /* CustomerConfirmationViewController.swift */; };
+		CE490B361B696B9900A3A9D8 /* Tony_Gauda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE490B351B696B9900A3A9D8 /* Tony_Gauda.jpg */; };
+		CE67C0391B684D19000A511D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67C0381B684D19000A511D /* LogInViewController.swift */; };
+		CE67C03B1B684D34000A511D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67C03A1B684D34000A511D /* RegisterViewController.swift */; };
+		CE67C03D1B684E48000A511D /* CompleteRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67C03C1B684E48000A511D /* CompleteRequestViewController.swift */; };
+		CE67C03F1B684E77000A511D /* BarberRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67C03E1B684E77000A511D /* BarberRegistrationViewController.swift */; };
+		CE67C0411B685145000A511D /* BarberLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67C0401B685145000A511D /* BarberLogInViewController.swift */; };
+		CE67C0431B685177000A511D /* CustomerLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67C0421B685177000A511D /* CustomerLogInViewController.swift */; };
+		CE67C0491B68649D000A511D /* BarberGoLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67C0481B68649D000A511D /* BarberGoLiveViewController.swift */; };
+		CE67C04B1B686B9A000A511D /* BarberWorkRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67C04A1B686B9A000A511D /* BarberWorkRequestsViewController.swift */; };
+		CEB33FA21B876E220093624C /* Barbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB33FA11B876E220093624C /* Barbers.swift */; };
+		CEE505881B6727C900401D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE505871B6727C900401D92 /* AppDelegate.swift */; };
+		CEE5058A1B6727C900401D92 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE505891B6727C900401D92 /* WelcomeViewController.swift */; };
+		CEE5058D1B6727C900401D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE5058B1B6727C900401D92 /* Main.storyboard */; };
+		CEE5058F1B6727C900401D92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE5058E1B6727C900401D92 /* Images.xcassets */; };
+		CEE505921B6727C900401D92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE505901B6727C900401D92 /* LaunchScreen.xib */; };
+		CEE5059E1B6727CA00401D92 /* barber_lyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5059D1B6727CA00401D92 /* barber_lyTests.swift */; };
+		CEE8E7621B85604E00DA22D1 /* RequestPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8E7611B85604E00DA22D1 /* RequestPermissionViewController.swift */; };
+		CEEFD5201B87F4F000F3A551 /* 491291541_640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEEFD51F1B87F4F000F3A551 /* 491291541_640.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE505981B6727CA00401D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE5057A1B6727C900401D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE505811B6727C900401D92;
+			remoteInfo = barber.ly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE1096D01B853AC900034121 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CE1096D21B853AD200034121 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE1096D81B85464B00034121 /* TestLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestLocations.gpx; sourceTree = "<group>"; };
+		CE1096DA1B85476C00034121 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
+		CE40F48A1B86D58F009429F4 /* Barber Options.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Barber Options.plist"; sourceTree = "<group>"; };
+		CE4660891B899E9B0016A441 /* Barber 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barber 1.jpg"; sourceTree = "<group>"; };
+		CE46608A1B899E9B0016A441 /* Barber 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barber 2.jpg"; sourceTree = "<group>"; };
+		CE46608B1B899E9B0016A441 /* Barber 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barber 3.jpg"; sourceTree = "<group>"; };
+		CE46608C1B899E9B0016A441 /* Barber 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barber 4.jpg"; sourceTree = "<group>"; };
+		CE46608D1B899E9B0016A441 /* Barber 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barber 5.jpg"; sourceTree = "<group>"; };
+		CE46608E1B899E9B0016A441 /* Barber 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barber 6.jpg"; sourceTree = "<group>"; };
+		CE4660951B89AFAE0016A441 /* default.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = default.gpx; sourceTree = "<group>"; };
+		CE4713C31B8A767800F92889 /* ConfirmAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmAppointmentViewController.swift; sourceTree = "<group>"; };
+		CE490B291B68831600A3A9D8 /* default_profile_pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default_profile_pic.jpg; sourceTree = SOURCE_ROOT; };
+		CE490B2A1B68831600A3A9D8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
+		CE490B2B1B68831600A3A9D8 /* Tristan_Walker.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tristan_Walker.jpeg; sourceTree = SOURCE_ROOT; };
+		CE490B2F1B69650500A3A9D8 /* BarberTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberTableViewController.swift; sourceTree = "<group>"; };
+		CE490B311B6965CF00A3A9D8 /* BarberProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberProfileViewController.swift; sourceTree = "<group>"; };
+		CE490B331B6965FF00A3A9D8 /* CustomerConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerConfirmationViewController.swift; sourceTree = "<group>"; };
+		CE490B351B696B9900A3A9D8 /* Tony_Gauda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tony_Gauda.jpg; sourceTree = SOURCE_ROOT; };
+		CE67C0381B684D19000A511D /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		CE67C03A1B684D34000A511D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CE67C03C1B684E48000A511D /* CompleteRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteRequestViewController.swift; sourceTree = "<group>"; };
+		CE67C03E1B684E77000A511D /* BarberRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberRegistrationViewController.swift; sourceTree = "<group>"; };
+		CE67C0401B685145000A511D /* BarberLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberLogInViewController.swift; sourceTree = "<group>"; };
+		CE67C0421B685177000A511D /* CustomerLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerLogInViewController.swift; sourceTree = "<group>"; };
+		CE67C0481B68649D000A511D /* BarberGoLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberGoLiveViewController.swift; sourceTree = "<group>"; };
+		CE67C04A1B686B9A000A511D /* BarberWorkRequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberWorkRequestsViewController.swift; sourceTree = "<group>"; };
+		CEB33FA11B876E220093624C /* Barbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barbers.swift; sourceTree = "<group>"; };
+		CEE505821B6727C900401D92 /* barber.ly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barber.ly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE505861B6727C900401D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE505871B6727C900401D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE505891B6727C900401D92 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		CEE5058C1B6727C900401D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE5058E1B6727C900401D92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEE505911B6727C900401D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEE505971B6727CA00401D92 /* barber.lyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barber.lyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE5059C1B6727CA00401D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE5059D1B6727CA00401D92 /* barber_lyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barber_lyTests.swift; sourceTree = "<group>"; };
+		CEE8E7611B85604E00DA22D1 /* RequestPermissionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestPermissionViewController.swift; sourceTree = "<group>"; };
+		CEEFD51F1B87F4F000F3A551 /* 491291541_640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 491291541_640.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE5057F1B6727C900401D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1096D31B853AD200034121 /* MapKit.framework in Frameworks */,
+				CE1096D11B853AC900034121 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE505941B6727CA00401D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB33FA31B877BF30093624C /* Not Used */ = {
+			isa = PBXGroup;
+			children = (
+				CE67C03A1B684D34000A511D /* RegisterViewController.swift */,
+				CE490B331B6965FF00A3A9D8 /* CustomerConfirmationViewController.swift */,
+				CE67C03E1B684E77000A511D /* BarberRegistrationViewController.swift */,
+				CE67C0401B685145000A511D /* BarberLogInViewController.swift */,
+				CE67C0481B68649D000A511D /* BarberGoLiveViewController.swift */,
+				CE67C04A1B686B9A000A511D /* BarberWorkRequestsViewController.swift */,
+			);
+			name = "Not Used";
+			sourceTree = "<group>";
+		};
+		CEE505791B6727C900401D92 = {
+			isa = PBXGroup;
+			children = (
+				CE40F48A1B86D58F009429F4 /* Barber Options.plist */,
+				CEE505841B6727C900401D92 /* barber.ly */,
+				CEE5059A1B6727CA00401D92 /* barber.lyTests */,
+				CEE505831B6727C900401D92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE505831B6727C900401D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE505821B6727C900401D92 /* barber.ly.app */,
+				CEE505971B6727CA00401D92 /* barber.lyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE505841B6727C900401D92 /* barber.ly */ = {
+			isa = PBXGroup;
+			children = (
+				CEE505871B6727C900401D92 /* AppDelegate.swift */,
+				CEE505891B6727C900401D92 /* WelcomeViewController.swift */,
+				CE67C0381B684D19000A511D /* LogInViewController.swift */,
+				CE67C0421B685177000A511D /* CustomerLogInViewController.swift */,
+				CEE8E7611B85604E00DA22D1 /* RequestPermissionViewController.swift */,
+				CE1096DA1B85476C00034121 /* MapViewController.swift */,
+				CEB33FA11B876E220093624C /* Barbers.swift */,
+				CE490B2F1B69650500A3A9D8 /* BarberTableViewController.swift */,
+				CE490B311B6965CF00A3A9D8 /* BarberProfileViewController.swift */,
+				CE67C03C1B684E48000A511D /* CompleteRequestViewController.swift */,
+				CE4713C31B8A767800F92889 /* ConfirmAppointmentViewController.swift */,
+				CEE5058B1B6727C900401D92 /* Main.storyboard */,
+				CE4660891B899E9B0016A441 /* Barber 1.jpg */,
+				CE46608A1B899E9B0016A441 /* Barber 2.jpg */,
+				CE46608B1B899E9B0016A441 /* Barber 3.jpg */,
+				CE46608C1B899E9B0016A441 /* Barber 4.jpg */,
+				CE46608D1B899E9B0016A441 /* Barber 5.jpg */,
+				CE46608E1B899E9B0016A441 /* Barber 6.jpg */,
+				CEEFD51F1B87F4F000F3A551 /* 491291541_640.jpg */,
+				CE490B351B696B9900A3A9D8 /* Tony_Gauda.jpg */,
+				CE490B291B68831600A3A9D8 /* default_profile_pic.jpg */,
+				CE490B2A1B68831600A3A9D8 /* logo.png */,
+				CE490B2B1B68831600A3A9D8 /* Tristan_Walker.jpeg */,
+				CEB33FA31B877BF30093624C /* Not Used */,
+				CEE5058E1B6727C900401D92 /* Images.xcassets */,
+				CEE505901B6727C900401D92 /* LaunchScreen.xib */,
+				CE1096D21B853AD200034121 /* MapKit.framework */,
+				CE1096D01B853AC900034121 /* CoreLocation.framework */,
+				CEE505851B6727C900401D92 /* Supporting Files */,
+			);
+			path = barber.ly;
+			sourceTree = "<group>";
+		};
+		CEE505851B6727C900401D92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4660951B89AFAE0016A441 /* default.gpx */,
+				CE1096D81B85464B00034121 /* TestLocations.gpx */,
+				CEE505861B6727C900401D92 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE5059A1B6727CA00401D92 /* barber.lyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5059D1B6727CA00401D92 /* barber_lyTests.swift */,
+				CEE5059B1B6727CA00401D92 /* Supporting Files */,
+			);
+			path = barber.lyTests;
+			sourceTree = "<group>";
+		};
+		CEE5059B1B6727CA00401D92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5059C1B6727CA00401D92 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE505811B6727C900401D92 /* barber.ly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE505A11B6727CA00401D92 /* Build configuration list for PBXNativeTarget "barber.ly" */;
+			buildPhases = (
+				CEE5057E1B6727C900401D92 /* Sources */,
+				CEE5057F1B6727C900401D92 /* Frameworks */,
+				CEE505801B6727C900401D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = barber.ly;
+			productName = barber.ly;
+			productReference = CEE505821B6727C900401D92 /* barber.ly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE505961B6727CA00401D92 /* barber.lyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE505A41B6727CA00401D92 /* Build configuration list for PBXNativeTarget "barber.lyTests" */;
+			buildPhases = (
+				CEE505931B6727CA00401D92 /* Sources */,
+				CEE505941B6727CA00401D92 /* Frameworks */,
+				CEE505951B6727CA00401D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE505991B6727CA00401D92 /* PBXTargetDependency */,
+			);
+			name = barber.lyTests;
+			productName = barber.lyTests;
+			productReference = CEE505971B6727CA00401D92 /* barber.lyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE5057A1B6727C900401D92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Handy Debegon";
+				TargetAttributes = {
+					CEE505811B6727C900401D92 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CEE505961B6727CA00401D92 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CEE505811B6727C900401D92;
+					};
+				};
+			};
+			buildConfigurationList = CEE5057D1B6727C900401D92 /* Build configuration list for PBXProject "barber.ly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE505791B6727C900401D92;
+			productRefGroup = CEE505831B6727C900401D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE505811B6727C900401D92 /* barber.ly */,
+				CEE505961B6727CA00401D92 /* barber.lyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE505801B6727C900401D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE490B2D1B68831600A3A9D8 /* logo.png in Resources */,
+				CE490B361B696B9900A3A9D8 /* Tony_Gauda.jpg in Resources */,
+				CE490B2E1B68831600A3A9D8 /* Tristan_Walker.jpeg in Resources */,
+				CE4660931B899E9B0016A441 /* Barber 5.jpg in Resources */,
+				CE4660901B899E9B0016A441 /* Barber 2.jpg in Resources */,
+				CE4660911B899E9B0016A441 /* Barber 3.jpg in Resources */,
+				CE46608F1B899E9B0016A441 /* Barber 1.jpg in Resources */,
+				CEE5058D1B6727C900401D92 /* Main.storyboard in Resources */,
+				CEE505921B6727C900401D92 /* LaunchScreen.xib in Resources */,
+				CEEFD5201B87F4F000F3A551 /* 491291541_640.jpg in Resources */,
+				CE490B2C1B68831600A3A9D8 /* default_profile_pic.jpg in Resources */,
+				CE1096D91B85464B00034121 /* TestLocations.gpx in Resources */,
+				CE4660921B899E9B0016A441 /* Barber 4.jpg in Resources */,
+				CE40F48B1B86D58F009429F4 /* Barber Options.plist in Resources */,
+				CEE5058F1B6727C900401D92 /* Images.xcassets in Resources */,
+				CE4660961B89AFAE0016A441 /* default.gpx in Resources */,
+				CE4660941B899E9B0016A441 /* Barber 6.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE505951B6727CA00401D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE5057E1B6727C900401D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE5058A1B6727C900401D92 /* WelcomeViewController.swift in Sources */,
+				CE67C03D1B684E48000A511D /* CompleteRequestViewController.swift in Sources */,
+				CE67C0431B685177000A511D /* CustomerLogInViewController.swift in Sources */,
+				CE490B301B69650500A3A9D8 /* BarberTableViewController.swift in Sources */,
+				CE490B321B6965CF00A3A9D8 /* BarberProfileViewController.swift in Sources */,
+				CEE505881B6727C900401D92 /* AppDelegate.swift in Sources */,
+				CEE8E7621B85604E00DA22D1 /* RequestPermissionViewController.swift in Sources */,
+				CE67C04B1B686B9A000A511D /* BarberWorkRequestsViewController.swift in Sources */,
+				CE67C0391B684D19000A511D /* LogInViewController.swift in Sources */,
+				CEB33FA21B876E220093624C /* Barbers.swift in Sources */,
+				CE67C03B1B684D34000A511D /* RegisterViewController.swift in Sources */,
+				CE4713C41B8A767800F92889 /* ConfirmAppointmentViewController.swift in Sources */,
+				CE67C03F1B684E77000A511D /* BarberRegistrationViewController.swift in Sources */,
+				CE490B341B6965FF00A3A9D8 /* CustomerConfirmationViewController.swift in Sources */,
+				CE67C0491B68649D000A511D /* BarberGoLiveViewController.swift in Sources */,
+				CE67C0411B685145000A511D /* BarberLogInViewController.swift in Sources */,
+				CE1096DB1B85476C00034121 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE505931B6727CA00401D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE5059E1B6727CA00401D92 /* barber_lyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE505991B6727CA00401D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE505811B6727C900401D92 /* barber.ly */;
+			targetProxy = CEE505981B6727CA00401D92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE5058B1B6727C900401D92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE5058C1B6727C900401D92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE505901B6727C900401D92 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE505911B6727C900401D92 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE5059F1B6727CA00401D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE505A01B6727CA00401D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE505A21B6727CA00401D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = barber.ly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEE505A31B6727CA00401D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = barber.ly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEE505A51B6727CA00401D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = barber.lyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barber.ly.app/barber.ly";
+			};
+			name = Debug;
+		};
+		CEE505A61B6727CA00401D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = barber.lyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barber.ly.app/barber.ly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE5057D1B6727C900401D92 /* Build configuration list for PBXProject "barber.ly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE5059F1B6727CA00401D92 /* Debug */,
+				CEE505A01B6727CA00401D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE505A11B6727CA00401D92 /* Build configuration list for PBXNativeTarget "barber.ly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE505A21B6727CA00401D92 /* Debug */,
+				CEE505A31B6727CA00401D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE505A41B6727CA00401D92 /* Build configuration list for PBXNativeTarget "barber.lyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE505A51B6727CA00401D92 /* Debug */,
+				CEE505A61B6727CA00401D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE5057A1B6727C900401D92 /* Project object */;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>John Stevens</string>
+		<key>specialty</key>
+		<string>Fades</string>
+		<key>latitude</key>
+		<real>38.9028423</real>
+		<key>longitude</key>
+		<real>-77.03737529999999</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Daniel Thomas</string>
+		<key>specialty</key>
+		<string>Caesar cuts</string>
+		<key>latitude</key>
+		<real>38.9029091</real>
+		<key>longitude</key>
+		<real>-77.0358197</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>James Franco</string>
+		<key>specialty</key>
+		<string>Crew cuts </string>
+		<key>latitude</key>
+		<real>38.9051791</real>
+		<key>longitude</key>
+		<real>-77.04046529999999</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Paul Grant</string>
+		<key>specialty</key>
+		<string>Brush cuts</string>
+		<key>latitude</key>
+		<real>38.9052876</real>
+		<key>longitude</key>
+		<real>-77.0386735</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mike Reese</string>
+		<key>specialty</key>
+		<string>Mohawks</string>
+		<key>latitude</key>
+		<real>38.9046948</real>
+		<key>longitude</key>
+		<real>-77.0329443</real>
+	</dict>
+</array>
+</plist>

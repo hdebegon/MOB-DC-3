@@ -84,8 +84,8 @@
 				8E25D72D1B38D50D0008CBDB /* logo.png */,
 				8E25D70D1B38D4900008CBDB /* AppDelegate.swift */,
 				8E25D70F1B38D4900008CBDB /* ViewController.swift */,
-				8E25D7111B38D4900008CBDB /* Main.storyboard */,
 				8E25D72F1B38E3170008CBDB /* ProfileViewController.swift */,
+				8E25D7111B38D4900008CBDB /* Main.storyboard */,
 				8E25D7141B38D4900008CBDB /* Images.xcassets */,
 				8E25D7161B38D4900008CBDB /* LaunchScreen.xib */,
 				8E25D70B1B38D4900008CBDB /* Supporting Files */,
@@ -417,6 +417,7 @@
 				8E25D7291B38D4900008CBDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E25D72A1B38D4900008CBDB /* Build configuration list for PBXNativeTarget "AIMTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				8E25D72C1B38D4900008CBDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
