@@ -69,15 +69,17 @@ class CompleteRequestViewController: UIViewController, UIPickerViewDataSource, U
         self.hairTypeTextField.endEditing(true)
     }
     
-    
-    
+//    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+//        
+//    }
+//    
     
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "viewConfirmation" {
             let destinationVC = segue.destinationViewController as! ConfirmAppointmentViewController
             destinationVC.username = userName.text
-            //destinationVC.dateTime = datePicker.text
+            destinationVC.dateTime = "\(datePicker.date)"
             destinationVC.hairtype = hairTypeTextField.text
             destinationVC.address = userAddress.text
             destinationVC.hairStyle = hairstyleRequest.text

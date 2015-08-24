@@ -541,9 +541,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="10" y="161" width="360" height="21"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -565,15 +562,15 @@
                                 <exclude reference="gJi-QR-9Sh"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="6uo-xk-7hf"/>
-                                <exclude reference="Iw7-yA-twL"/>
-                                <exclude reference="Ur2-Kz-Epg"/>
-                                <exclude reference="sPl-Tf-NmQ"/>
                                 <exclude reference="8Yu-vu-EY2"/>
                                 <exclude reference="U7c-gp-a96"/>
                                 <exclude reference="VgH-7L-YVI"/>
                                 <exclude reference="XzX-Jq-WWJ"/>
                                 <exclude reference="g5w-DC-g0l"/>
+                                <exclude reference="6uo-xk-7hf"/>
+                                <exclude reference="Iw7-yA-twL"/>
+                                <exclude reference="Ur2-Kz-Epg"/>
+                                <exclude reference="sPl-Tf-NmQ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -583,15 +580,15 @@
                                 <include reference="gJi-QR-9Sh"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="6uo-xk-7hf"/>
-                                <include reference="Iw7-yA-twL"/>
-                                <include reference="Ur2-Kz-Epg"/>
-                                <include reference="sPl-Tf-NmQ"/>
                                 <include reference="8Yu-vu-EY2"/>
                                 <include reference="U7c-gp-a96"/>
                                 <include reference="VgH-7L-YVI"/>
                                 <include reference="XzX-Jq-WWJ"/>
                                 <include reference="g5w-DC-g0l"/>
+                                <include reference="6uo-xk-7hf"/>
+                                <include reference="Iw7-yA-twL"/>
+                                <include reference="Ur2-Kz-Epg"/>
+                                <include reference="sPl-Tf-NmQ"/>
                             </mask>
                         </variation>
                     </view>

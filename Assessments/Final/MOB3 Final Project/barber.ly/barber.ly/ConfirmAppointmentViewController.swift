@@ -13,7 +13,7 @@ class ConfirmAppointmentViewController: UIViewController
     var username: String?
     var hairtype: String?
     var hairStyle: String?
-    var dateTime: UIPickerView?
+    var dateTime: String?
     var address: String?
     
     @IBOutlet weak var usernameLabel: UILabel!
@@ -38,10 +38,9 @@ class ConfirmAppointmentViewController: UIViewController
             hairstyleLabel.text = "Requesting: \(customerHairStyle)"
         }
         
-        /*Cannot pass UIDatepicker info to the dateTimeLabel
-        //if let appointmentInfo = dateTime {
-        //    dateTimeLabel.text = appointmentInfo
-        }*/
+        if let appointmentInfo = dateTime {
+            dateTimeLabel.text = appointmentInfo
+        }
         
         if let customerAddress = address {
             addressLabel.text = "Location: \(customerAddress)"
